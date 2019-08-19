@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA1A7181230A7181004848BF /* UBSignatureDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1A717F230A7181004848BF /* UBSignatureDrawingViewController.m */; };
+		FA1A7184230A71CB004848BF /* SignatureSelectListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1A7183230A71CB004848BF /* SignatureSelectListController.m */; };
+		FA1A718F230AA78E004848BF /* UBDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1A718E230AA78E004848BF /* UBDemoViewController.m */; };
+		FAA58BBC23064BDA0077E7CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58BBB23064BDA0077E7CB /* AppDelegate.m */; };
+		FAA58BC223064BDA0077E7CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA58BC023064BDA0077E7CB /* Main.storyboard */; };
+		FAA58BC423064BDC0077E7CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA58BC323064BDC0077E7CB /* Assets.xcassets */; };
+		FAA58BC723064BDC0077E7CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA58BC523064BDC0077E7CB /* LaunchScreen.storyboard */; };
+		FAA58BCA23064BDC0077E7CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58BC923064BDC0077E7CB /* main.m */; };
+		FAA58BD423064BDC0077E7CB /* _____DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58BD323064BDC0077E7CB /* _____DemoTests.m */; };
+		FAA58BDF23064BDC0077E7CB /* _____DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58BDE23064BDC0077E7CB /* _____DemoUITests.m */; };
+		FAA58BFD23064D3F0077E7CB /* UBSignatureBezierProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58BF423064D3F0077E7CB /* UBSignatureBezierProvider.m */; };
+		FAA58BFE23064D3F0077E7CB /* UBSignatureDrawingModelAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58BF623064D3F0077E7CB /* UBSignatureDrawingModelAsync.m */; };
+		FAA58BFF23064D3F0077E7CB /* UIBezierPath+UBWeightedPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58BF723064D3F0077E7CB /* UIBezierPath+UBWeightedPoint.m */; };
+		FAA58C0023064D3F0077E7CB /* UBSignatureDrawingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58BF923064D3F0077E7CB /* UBSignatureDrawingModel.m */; };
+		FAA58C1E23064D8D0077E7CB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FAA58C0223064D8D0077E7CB /* LICENSE */; };
+		FAA58C1F23064D8D0077E7CB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58C0523064D8D0077E7CB /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FAA58C2023064D8D0077E7CB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58C0E23064D8D0077E7CB /* ViewController+MASAdditions.m */; };
+		FAA58C2123064D8D0077E7CB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58C1223064D8D0077E7CB /* MASCompositeConstraint.m */; };
+		FAA58C2223064D8D0077E7CB /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58C1323064D8D0077E7CB /* MASConstraintMaker.m */; };
+		FAA58C2323064D8D0077E7CB /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58C1423064D8D0077E7CB /* MASLayoutConstraint.m */; };
+		FAA58C2423064D8D0077E7CB /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58C1523064D8D0077E7CB /* NSArray+MASAdditions.m */; };
+		FAA58C2523064D8D0077E7CB /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58C1623064D8D0077E7CB /* View+MASAdditions.m */; };
+		FAA58C2623064D8D0077E7CB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58C1923064D8D0077E7CB /* MASConstraint.m */; };
+		FAA58C2723064D8D0077E7CB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58C1B23064D8D0077E7CB /* MASViewConstraint.m */; };
+		FAA58C2823064D8D0077E7CB /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58C1C23064D8D0077E7CB /* MASViewAttribute.m */; };
+		FAA58C2923064D8D0077E7CB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAA58C1D23064D8D0077E7CB /* README.md */; };
+		FAA58C2B2306555A0077E7CB /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA58C2A2306555A0077E7CB /* 1.jpeg */; };
+		FAA58C2D23065CF00077E7CB /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAA58C2C23065CF00077E7CB /* 2.jpeg */; };
+		FAA58C362306845B0077E7CB /* TopMoveImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58C342306845B0077E7CB /* TopMoveImageView.m */; };
+		FAA58C39230687700077E7CB /* CrazyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA58C38230687700077E7CB /* CrazyImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA58BD023064BDC0077E7CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA58BAF23064BDA0077E7CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA58BB623064BDA0077E7CB;
+			remoteInfo = "手写签批的Demo";
+		};
+		FAA58BDB23064BDC0077E7CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA58BAF23064BDA0077E7CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA58BB623064BDA0077E7CB;
+			remoteInfo = "手写签批的Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA1A717F230A7181004848BF /* UBSignatureDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBSignatureDrawingViewController.m; sourceTree = "<group>"; };
+		FA1A7180230A7181004848BF /* UBSignatureDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBSignatureDrawingViewController.h; sourceTree = "<group>"; };
+		FA1A7182230A71CB004848BF /* SignatureSelectListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignatureSelectListController.h; sourceTree = "<group>"; };
+		FA1A7183230A71CB004848BF /* SignatureSelectListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignatureSelectListController.m; sourceTree = "<group>"; };
+		FA1A718D230AA78E004848BF /* UBDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBDemoViewController.h; sourceTree = "<group>"; };
+		FA1A718E230AA78E004848BF /* UBDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBDemoViewController.m; sourceTree = "<group>"; };
+		FAA58BB723064BDA0077E7CB /* 手写签批的Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "手写签批的Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA58BBA23064BDA0077E7CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAA58BBB23064BDA0077E7CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAA58BC123064BDA0077E7CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA58BC323064BDC0077E7CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA58BC623064BDC0077E7CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA58BC823064BDC0077E7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA58BC923064BDC0077E7CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAA58BCF23064BDC0077E7CB /* 手写签批的DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "手写签批的DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA58BD323064BDC0077E7CB /* _____DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____DemoTests.m"; sourceTree = "<group>"; };
+		FAA58BD523064BDC0077E7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA58BDA23064BDC0077E7CB /* 手写签批的DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "手写签批的DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA58BDE23064BDC0077E7CB /* _____DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____DemoUITests.m"; sourceTree = "<group>"; };
+		FAA58BE023064BDC0077E7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA58BF223064D3F0077E7CB /* UIBezierPath+UBWeightedPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+UBWeightedPoint.h"; sourceTree = "<group>"; };
+		FAA58BF323064D3F0077E7CB /* UBCGPointHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBCGPointHelpers.h; sourceTree = "<group>"; };
+		FAA58BF423064D3F0077E7CB /* UBSignatureBezierProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBSignatureBezierProvider.m; sourceTree = "<group>"; };
+		FAA58BF523064D3F0077E7CB /* UBSignatureDrawingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBSignatureDrawingModel.h; sourceTree = "<group>"; };
+		FAA58BF623064D3F0077E7CB /* UBSignatureDrawingModelAsync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBSignatureDrawingModelAsync.m; sourceTree = "<group>"; };
+		FAA58BF723064D3F0077E7CB /* UIBezierPath+UBWeightedPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+UBWeightedPoint.m"; sourceTree = "<group>"; };
+		FAA58BF823064D3F0077E7CB /* UBSignatureDrawingModelAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBSignatureDrawingModelAsync.h; sourceTree = "<group>"; };
+		FAA58BF923064D3F0077E7CB /* UBSignatureDrawingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBSignatureDrawingModel.m; sourceTree = "<group>"; };
+		FAA58BFA23064D3F0077E7CB /* UBSignatureBezierProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBSignatureBezierProvider.h; sourceTree = "<group>"; };
+		FAA58C0223064D8D0077E7CB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FAA58C0423064D8D0077E7CB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		FAA58C0523064D8D0077E7CB /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		FAA58C0623064D8D0077E7CB /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		FAA58C0723064D8D0077E7CB /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		FAA58C0823064D8D0077E7CB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FAA58C0923064D8D0077E7CB /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		FAA58C0A23064D8D0077E7CB /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		FAA58C0B23064D8D0077E7CB /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		FAA58C0C23064D8D0077E7CB /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		FAA58C0D23064D8D0077E7CB /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		FAA58C0E23064D8D0077E7CB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		FAA58C0F23064D8D0077E7CB /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		FAA58C1023064D8D0077E7CB /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		FAA58C1123064D8D0077E7CB /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		FAA58C1223064D8D0077E7CB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		FAA58C1323064D8D0077E7CB /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		FAA58C1423064D8D0077E7CB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		FAA58C1523064D8D0077E7CB /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		FAA58C1623064D8D0077E7CB /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		FAA58C1723064D8D0077E7CB /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FAA58C1823064D8D0077E7CB /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		FAA58C1923064D8D0077E7CB /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		FAA58C1A23064D8D0077E7CB /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		FAA58C1B23064D8D0077E7CB /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		FAA58C1C23064D8D0077E7CB /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		FAA58C1D23064D8D0077E7CB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FAA58C2A2306555A0077E7CB /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		FAA58C2C23065CF00077E7CB /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		FAA58C342306845B0077E7CB /* TopMoveImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopMoveImageView.m; sourceTree = "<group>"; };
+		FAA58C352306845B0077E7CB /* TopMoveImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopMoveImageView.h; sourceTree = "<group>"; };
+		FAA58C37230687700077E7CB /* CrazyImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrazyImageView.h; sourceTree = "<group>"; };
+		FAA58C38230687700077E7CB /* CrazyImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA58BB423064BDA0077E7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA58BCC23064BDC0077E7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA58BD723064BDC0077E7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA1A717E230A7181004848BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA1A718D230AA78E004848BF /* UBDemoViewController.h */,
+				FA1A718E230AA78E004848BF /* UBDemoViewController.m */,
+				FA1A717F230A7181004848BF /* UBSignatureDrawingViewController.m */,
+				FA1A7180230A7181004848BF /* UBSignatureDrawingViewController.h */,
+				FA1A7182230A71CB004848BF /* SignatureSelectListController.h */,
+				FA1A7183230A71CB004848BF /* SignatureSelectListController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAA58BAE23064BDA0077E7CB = {
+			isa = PBXGroup;
+			children = (
+				FAA58BB923064BDA0077E7CB /* 手写签批的Demo */,
+				FAA58BD223064BDC0077E7CB /* 手写签批的DemoTests */,
+				FAA58BDD23064BDC0077E7CB /* 手写签批的DemoUITests */,
+				FAA58BB823064BDA0077E7CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA58BB823064BDA0077E7CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA58BB723064BDA0077E7CB /* 手写签批的Demo.app */,
+				FAA58BCF23064BDC0077E7CB /* 手写签批的DemoTests.xctest */,
+				FAA58BDA23064BDC0077E7CB /* 手写签批的DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA58BB923064BDA0077E7CB /* 手写签批的Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FAA58C2A2306555A0077E7CB /* 1.jpeg */,
+				FAA58C2C23065CF00077E7CB /* 2.jpeg */,
+				FAA58BBA23064BDA0077E7CB /* AppDelegate.h */,
+				FAA58BBB23064BDA0077E7CB /* AppDelegate.m */,
+				FAA58C0123064D8D0077E7CB /* Masonry */,
+				FAA58BEF23064D3F0077E7CB /* CrazySignature */,
+				FAA58BC023064BDA0077E7CB /* Main.storyboard */,
+				FAA58BC323064BDC0077E7CB /* Assets.xcassets */,
+				FAA58BC523064BDC0077E7CB /* LaunchScreen.storyboard */,
+				FAA58BC823064BDC0077E7CB /* Info.plist */,
+				FAA58BC923064BDC0077E7CB /* main.m */,
+			);
+			path = "手写签批的Demo";
+			sourceTree = "<group>";
+		};
+		FAA58BD223064BDC0077E7CB /* 手写签批的DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA58BD323064BDC0077E7CB /* _____DemoTests.m */,
+				FAA58BD523064BDC0077E7CB /* Info.plist */,
+			);
+			path = "手写签批的DemoTests";
+			sourceTree = "<group>";
+		};
+		FAA58BDD23064BDC0077E7CB /* 手写签批的DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA58BDE23064BDC0077E7CB /* _____DemoUITests.m */,
+				FAA58BE023064BDC0077E7CB /* Info.plist */,
+			);
+			path = "手写签批的DemoUITests";
+			sourceTree = "<group>";
+		};
+		FAA58BEF23064D3F0077E7CB /* CrazySignature */ = {
+			isa = PBXGroup;
+			children = (
+				FA1A717E230A7181004848BF /* Controller */,
+				FAA58C332306845B0077E7CB /* View */,
+				FAA58BF123064D3F0077E7CB /* Internal */,
+			);
+			path = CrazySignature;
+			sourceTree = "<group>";
+		};
+		FAA58BF123064D3F0077E7CB /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				FAA58BF223064D3F0077E7CB /* UIBezierPath+UBWeightedPoint.h */,
+				FAA58BF323064D3F0077E7CB /* UBCGPointHelpers.h */,
+				FAA58BF423064D3F0077E7CB /* UBSignatureBezierProvider.m */,
+				FAA58BF523064D3F0077E7CB /* UBSignatureDrawingModel.h */,
+				FAA58BF623064D3F0077E7CB /* UBSignatureDrawingModelAsync.m */,
+				FAA58BF723064D3F0077E7CB /* UIBezierPath+UBWeightedPoint.m */,
+				FAA58BF823064D3F0077E7CB /* UBSignatureDrawingModelAsync.h */,
+				FAA58BF923064D3F0077E7CB /* UBSignatureDrawingModel.m */,
+				FAA58BFA23064D3F0077E7CB /* UBSignatureBezierProvider.h */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		FAA58C0123064D8D0077E7CB /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				FAA58C0223064D8D0077E7CB /* LICENSE */,
+				FAA58C0323064D8D0077E7CB /* Masonry */,
+				FAA58C1D23064D8D0077E7CB /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		FAA58C0323064D8D0077E7CB /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				FAA58C0423064D8D0077E7CB /* MASCompositeConstraint.h */,
+				FAA58C0523064D8D0077E7CB /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FAA58C0623064D8D0077E7CB /* MASConstraint+Private.h */,
+				FAA58C0723064D8D0077E7CB /* MASLayoutConstraint.h */,
+				FAA58C0823064D8D0077E7CB /* NSArray+MASShorthandAdditions.h */,
+				FAA58C0923064D8D0077E7CB /* MASConstraintMaker.h */,
+				FAA58C0A23064D8D0077E7CB /* View+MASAdditions.h */,
+				FAA58C0B23064D8D0077E7CB /* NSArray+MASAdditions.h */,
+				FAA58C0C23064D8D0077E7CB /* MASUtilities.h */,
+				FAA58C0D23064D8D0077E7CB /* MASViewAttribute.h */,
+				FAA58C0E23064D8D0077E7CB /* ViewController+MASAdditions.m */,
+				FAA58C0F23064D8D0077E7CB /* MASViewConstraint.h */,
+				FAA58C1023064D8D0077E7CB /* MASConstraint.h */,
+				FAA58C1123064D8D0077E7CB /* NSLayoutConstraint+MASDebugAdditions.h */,
+				FAA58C1223064D8D0077E7CB /* MASCompositeConstraint.m */,
+				FAA58C1323064D8D0077E7CB /* MASConstraintMaker.m */,
+				FAA58C1423064D8D0077E7CB /* MASLayoutConstraint.m */,
+				FAA58C1523064D8D0077E7CB /* NSArray+MASAdditions.m */,
+				FAA58C1623064D8D0077E7CB /* View+MASAdditions.m */,
+				FAA58C1723064D8D0077E7CB /* View+MASShorthandAdditions.h */,
+				FAA58C1823064D8D0077E7CB /* Masonry.h */,
+				FAA58C1923064D8D0077E7CB /* MASConstraint.m */,
+				FAA58C1A23064D8D0077E7CB /* ViewController+MASAdditions.h */,
+				FAA58C1B23064D8D0077E7CB /* MASViewConstraint.m */,
+				FAA58C1C23064D8D0077E7CB /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		FAA58C332306845B0077E7CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAA58C342306845B0077E7CB /* TopMoveImageView.m */,
+				FAA58C352306845B0077E7CB /* TopMoveImageView.h */,
+				FAA58C37230687700077E7CB /* CrazyImageView.h */,
+				FAA58C38230687700077E7CB /* CrazyImageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA58BB623064BDA0077E7CB /* 手写签批的Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA58BE323064BDC0077E7CB /* Build configuration list for PBXNativeTarget "手写签批的Demo" */;
+			buildPhases = (
+				FAA58BB323064BDA0077E7CB /* Sources */,
+				FAA58BB423064BDA0077E7CB /* Frameworks */,
+				FAA58BB523064BDA0077E7CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "手写签批的Demo";
+			productName = "手写签批的Demo";
+			productReference = FAA58BB723064BDA0077E7CB /* 手写签批的Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA58BCE23064BDC0077E7CB /* 手写签批的DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA58BE623064BDC0077E7CB /* Build configuration list for PBXNativeTarget "手写签批的DemoTests" */;
+			buildPhases = (
+				FAA58BCB23064BDC0077E7CB /* Sources */,
+				FAA58BCC23064BDC0077E7CB /* Frameworks */,
+				FAA58BCD23064BDC0077E7CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA58BD123064BDC0077E7CB /* PBXTargetDependency */,
+			);
+			name = "手写签批的DemoTests";
+			productName = "手写签批的DemoTests";
+			productReference = FAA58BCF23064BDC0077E7CB /* 手写签批的DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA58BD923064BDC0077E7CB /* 手写签批的DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA58BE923064BDC0077E7CB /* Build configuration list for PBXNativeTarget "手写签批的DemoUITests" */;
+			buildPhases = (
+				FAA58BD623064BDC0077E7CB /* Sources */,
+				FAA58BD723064BDC0077E7CB /* Frameworks */,
+				FAA58BD823064BDC0077E7CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA58BDC23064BDC0077E7CB /* PBXTargetDependency */,
+			);
+			name = "手写签批的DemoUITests";
+			productName = "手写签批的DemoUITests";
+			productReference = FAA58BDA23064BDC0077E7CB /* 手写签批的DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA58BAF23064BDA0077E7CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = MacBook;
+				TargetAttributes = {
+					FAA58BB623064BDA0077E7CB = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+					FAA58BCE23064BDC0077E7CB = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = FAA58BB623064BDA0077E7CB;
+					};
+					FAA58BD923064BDC0077E7CB = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = FAA58BB623064BDA0077E7CB;
+					};
+				};
+			};
+			buildConfigurationList = FAA58BB223064BDA0077E7CB /* Build configuration list for PBXProject "手写签批的Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA58BAE23064BDA0077E7CB;
+			productRefGroup = FAA58BB823064BDA0077E7CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA58BB623064BDA0077E7CB /* 手写签批的Demo */,
+				FAA58BCE23064BDC0077E7CB /* 手写签批的DemoTests */,
+				FAA58BD923064BDC0077E7CB /* 手写签批的DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA58BB523064BDA0077E7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA58BC723064BDC0077E7CB /* LaunchScreen.storyboard in Resources */,
+				FAA58C2B2306555A0077E7CB /* 1.jpeg in Resources */,
+				FAA58BC423064BDC0077E7CB /* Assets.xcassets in Resources */,
+				FAA58C2923064D8D0077E7CB /* README.md in Resources */,
+				FAA58C1E23064D8D0077E7CB /* LICENSE in Resources */,
+				FAA58BC223064BDA0077E7CB /* Main.storyboard in Resources */,
+				FAA58C2D23065CF00077E7CB /* 2.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA58BCD23064BDC0077E7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA58BD823064BDC0077E7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA58BB323064BDA0077E7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA58C2623064D8D0077E7CB /* MASConstraint.m in Sources */,
+				FAA58C2423064D8D0077E7CB /* NSArray+MASAdditions.m in Sources */,
+				FA1A7181230A7181004848BF /* UBSignatureDrawingViewController.m in Sources */,
+				FA1A7184230A71CB004848BF /* SignatureSelectListController.m in Sources */,
+				FAA58C1F23064D8D0077E7CB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				FAA58C2823064D8D0077E7CB /* MASViewAttribute.m in Sources */,
+				FAA58C0023064D3F0077E7CB /* UBSignatureDrawingModel.m in Sources */,
+				FAA58C2723064D8D0077E7CB /* MASViewConstraint.m in Sources */,
+				FAA58BFF23064D3F0077E7CB /* UIBezierPath+UBWeightedPoint.m in Sources */,
+				FAA58C2223064D8D0077E7CB /* MASConstraintMaker.m in Sources */,
+				FAA58C39230687700077E7CB /* CrazyImageView.m in Sources */,
+				FAA58C362306845B0077E7CB /* TopMoveImageView.m in Sources */,
+				FAA58C2323064D8D0077E7CB /* MASLayoutConstraint.m in Sources */,
+				FAA58C2523064D8D0077E7CB /* View+MASAdditions.m in Sources */,
+				FAA58C2123064D8D0077E7CB /* MASCompositeConstraint.m in Sources */,
+				FAA58BCA23064BDC0077E7CB /* main.m in Sources */,
+				FA1A718F230AA78E004848BF /* UBDemoViewController.m in Sources */,
+				FAA58C2023064D8D0077E7CB /* ViewController+MASAdditions.m in Sources */,
+				FAA58BBC23064BDA0077E7CB /* AppDelegate.m in Sources */,
+				FAA58BFD23064D3F0077E7CB /* UBSignatureBezierProvider.m in Sources */,
+				FAA58BFE23064D3F0077E7CB /* UBSignatureDrawingModelAsync.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA58BCB23064BDC0077E7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA58BD423064BDC0077E7CB /* _____DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA58BD623064BDC0077E7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA58BDF23064BDC0077E7CB /* _____DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA58BD123064BDC0077E7CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA58BB623064BDA0077E7CB /* 手写签批的Demo */;
+			targetProxy = FAA58BD023064BDC0077E7CB /* PBXContainerItemProxy */;
+		};
+		FAA58BDC23064BDC0077E7CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA58BB623064BDA0077E7CB /* 手写签批的Demo */;
+			targetProxy = FAA58BDB23064BDC0077E7CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA58BC023064BDA0077E7CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA58BC123064BDA0077E7CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA58BC523064BDC0077E7CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA58BC623064BDC0077E7CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA58BE123064BDC0077E7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAA58BE223064BDC0077E7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA58BE423064BDC0077E7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EGTTCNBDA8;
+				INFOPLIST_FILE = "手写签批的Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxxx.ss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA58BE523064BDC0077E7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EGTTCNBDA8;
+				INFOPLIST_FILE = "手写签批的Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxxx.ss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAA58BE723064BDC0077E7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "手写签批的DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "azar.-----DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/手写签批的Demo.app/手写签批的Demo";
+			};
+			name = Debug;
+		};
+		FAA58BE823064BDC0077E7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "手写签批的DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "azar.-----DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/手写签批的Demo.app/手写签批的Demo";
+			};
+			name = Release;
+		};
+		FAA58BEA23064BDC0077E7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "手写签批的DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "azar.-----DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "手写签批的Demo";
+			};
+			name = Debug;
+		};
+		FAA58BEB23064BDC0077E7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "手写签批的DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "azar.-----DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "手写签批的Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA58BB223064BDA0077E7CB /* Build configuration list for PBXProject "手写签批的Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA58BE123064BDC0077E7CB /* Debug */,
+				FAA58BE223064BDC0077E7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA58BE323064BDC0077E7CB /* Build configuration list for PBXNativeTarget "手写签批的Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA58BE423064BDC0077E7CB /* Debug */,
+				FAA58BE523064BDC0077E7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA58BE623064BDC0077E7CB /* Build configuration list for PBXNativeTarget "手写签批的DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA58BE723064BDC0077E7CB /* Debug */,
+				FAA58BE823064BDC0077E7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA58BE923064BDC0077E7CB /* Build configuration list for PBXNativeTarget "手写签批的DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA58BEA23064BDC0077E7CB /* Debug */,
+				FAA58BEB23064BDC0077E7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA58BAF23064BDA0077E7CB /* Project object */;
+}
